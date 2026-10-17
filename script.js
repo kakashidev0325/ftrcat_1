@@ -11,12 +11,12 @@
    ───────────────────────────────────────────────────────────── */
 const CONFIG = {
   // Solana mint address. Leave empty until launch — the page shows TBA.
-  contract: "",
+  contract: "Bry9AV5jqNqzcBj1ro8z7pKaUgv4Gz5yUwwoQRc8pump",
 
   // Trading + chart links. Leave empty until the mint is public.
-  buy:      "",
-  chart:    "",
-  scan:     "",
+  buy:      "https://pump.fun/coin/Bry9AV5jqNqzcBj1ro8z7pKaUgv4Gz5yUwwoQRc8pump",
+  chart:    "https://dexscreener.com/solana/Bry9AV5jqNqzcBj1ro8z7pKaUgv4Gz5yUwwoQRc8pump",
+  scan:     "https://solscan.io/token/Bry9AV5jqNqzcBj1ro8z7pKaUgv4Gz5yUwwoQRc8pump",
 
   // Socials
   twitter:  "https://x.com/ftrcatsol_x",
