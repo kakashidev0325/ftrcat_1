@@ -6,17 +6,17 @@
 /* ─────────────────────────────────────────────────────────────
    EDIT THIS BLOCK. Everything else on the site reads from it.
    Leave a value as "" and the site handles it gracefully:
-     · empty contract  → shows "COMING SOON" instead of a fake CA
+     · empty contract  → shows "TBA" instead of a fake CA
      · empty link      → button points at the X account instead
    ───────────────────────────────────────────────────────────── */
 const CONFIG = {
-  // Solana mint address.
-  contract: "XBJBV8BCt3R8WXUwDr9M5FSiZNfQmm8Nj8q2mQLpump",
+  // Solana mint address. Leave empty until launch — the page shows TBA.
+  contract: "",
 
-  // Trading + chart links
-  buy:      "https://pump.fun/coin/XBJBV8BCt3R8WXUwDr9M5FSiZNfQmm8Nj8q2mQLpump",
-  chart:    "https://dexscreener.com/solana/XBJBV8BCt3R8WXUwDr9M5FSiZNfQmm8Nj8q2mQLpump",
-  scan:     "https://solscan.io/token/XBJBV8BCt3R8WXUwDr9M5FSiZNfQmm8Nj8q2mQLpump",
+  // Trading + chart links. Leave empty until the mint is public.
+  buy:      "",
+  chart:    "",
+  scan:     "",
 
   // Socials
   twitter:  "https://x.com/ftrcatsol_x",
@@ -69,7 +69,7 @@ const CONFIG = {
 
   if (!isValid) {
     box.classList.add("is-pending");
-    text.textContent = "Coming soon";
+    text.textContent = "TBA";
     btnText.textContent = CONFIG.twitter ? "Follow" : "Soon";
     btn.addEventListener("click", () => {
       if (!CONFIG.twitter) return;
