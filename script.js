@@ -19,8 +19,8 @@ const CONFIG = {
   scan:     "https://solscan.io/token/XBJBV8BCt3R8WXUwDr9M5FSiZNfQmm8Nj8q2mQLpump",
 
   // Socials
-  twitter:  "https://x.com/ftrcat_x",
-  telegram: "https://t.me/ftrcat_tg",
+  twitter:  "https://x.com/ftrcatsol_x",
+  telegram: "https://t.me/ftrcatsol_tg",
 
   supply:   "",
 };
